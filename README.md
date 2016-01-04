@@ -1,7 +1,7 @@
 # webdev-gadgets-readLocalFile
 read local file's text content through html5 file api
 
-demo[https://rawgit.com/jdk137/webdev-gadgets-readLocalFile/master/index.html]
+[demo](https://rawgit.com/jdk137/webdev-gadgets-readLocalFile/master/index.html)
 
 ``` html
 
