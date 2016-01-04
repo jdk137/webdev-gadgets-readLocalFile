@@ -40,12 +40,12 @@ read local file's text content through html5 file api
         reader.onload = function(){
           var text = reader.result;
           var $editor = $('textarea');
-          $editor.html($editor.html() + ';' + text);
+          $editor.val($editor.val() + ';' + text);
         };
 
-		// prevent always upload the first file.
-		var $input = $('input.upload');
-		$input.replaceWith($input.clone(true));
+        // prevent always upload the first file.
+        var $input = $('input.upload');
+        $input.replaceWith($input.clone(true));
 
         reader.readAsText(input.files[0]);
       });
